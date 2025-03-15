@@ -10,7 +10,7 @@ from trl import SFTTrainer, SFTConfig
 warnings.filterwarnings("ignore")
 
 # 设置 W&B API Key
-os.environ["WANDB_API_KEY"] = "982e615d9587b87d31dcf56f7d80e2a859f81ab3"
+os.environ["WANDB_API_KEY"] = ""
 
 # 模型路径
 model_path = r"D:/.cache/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
